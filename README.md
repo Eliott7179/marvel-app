@@ -8,14 +8,15 @@
 
 ## Installation
 Récupérer le projet en local et installer les dépendances
-```mermaid
+
+```bash
 git clone url-du-projet
 cd marvel-app
 npm install
 ```
 ## Lancement
 
-```mermaid
+```bash
 npm start
 ```
 
@@ -25,13 +26,13 @@ L'application est accessible à l'adresse http://localhost:3000
 
 Execution des tests unitaires en mode watch, c'est à dire que les tests sont relancés chaque modification de code.
 
-```mermaid
+```bash
 npm test
 ```
 
 Execution des tests uniquement une fois avec un rapport détaillé de la couverture du code
 
-```mermaid
+```bash
 npm run test:coverage
 ```
 
