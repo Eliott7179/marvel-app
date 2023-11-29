@@ -1,6 +1,5 @@
 import './style.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
 import routes from './route';
 
 // Create a router that uses the client side history strategy for
