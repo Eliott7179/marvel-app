@@ -17,7 +17,7 @@ describe('CharactersList', () => {
         render(<CharactersList characters={characters} />, { wrapper: BrowserRouter });
 
         // expect a list with the id "characters" to be in the document
-        const characterList = screen.getByRole('list', { id: 'characters' });
+        const characterList = screen.getBytestId('characters');
         expect(characterList).toBeInTheDocument();
 
         // expect a listitem for each character
@@ -42,9 +42,9 @@ describe('CharactersList', () => {
 
         // then
         render(<CharactersList />, { wrapper: BrowserRouter });
-
+        
         // expect a list with the id "characters" to be in the document
-        const characterList = screen.getByRole('list', { id: 'characters' });
+        const characterList = screen.getByTestId('characters');
         expect(characterList).toBeInTheDocument();
 
         // expect no listitems

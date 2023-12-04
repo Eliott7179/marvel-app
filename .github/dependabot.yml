@@ -12,3 +12,4 @@ updates:
     groups:
       dev-dependencies:
         dependency-type: development
+        
